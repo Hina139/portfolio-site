@@ -1,0 +1,35 @@
+/* App.css */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0a192f;
+}
+
+main {
+  flex: 1;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a192f;
+}
+
+::-webkit-scrollbar-thumb {
+  background:  #0258c9;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:  #0258c9;
+}
+
+/* Selection Color */
+::selection {
+  background-color: rgba(3, 74, 114, 0.3);
+  color: #ccd6f6;
+}
